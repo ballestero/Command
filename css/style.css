@@ -1,0 +1,95 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+canvas {
+    background: #2b0d3b;
+    position: absolute;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-style: solid;
+    /*border-color: black;*/
+    border-width: 3px;
+    width: 160px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.container2 {
+    margin-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    width: 160px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.addLamp{
+    background: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: black;
+    border-width: 3px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+
+}
+
+.turnOnBtn {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: black;
+    border-width: 3px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.turnOffBtn{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: black;
+    border-width: 3px;
+    width: 150px;
+    height: 40px;
+}
+
+.lamp {
+    margin: 0 0px 0 200px;
+    background-color: gainsboro;
+    width: 70px;
+    height: 70px;
+    left: 200px;
+    top: 30px;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 40px;
+    border-style: solid;
+}
+
+.lamp-on {
+    background-color: yellow;
+}
+
+.lamp-off {
+    background-color: gainsboro;
+}
